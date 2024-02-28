@@ -9,7 +9,7 @@ const Modify = () => import('@/views/Modify.vue');
 const EndModify = () => import('@/views/EndModify.vue');
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHashHistory('proxy-test'),
   routes: [
     { path: '/', name: 'home', component: Home },
     { path: '/signup', name: 'signUp', component: SignUp },
