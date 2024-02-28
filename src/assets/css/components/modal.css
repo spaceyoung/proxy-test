@@ -1,0 +1,6 @@
+.v-dialog .v-card {
+  text-align: center;
+}
+.v-dialog .v-card .v-card-text {
+  font-size: 1em;
+}
